@@ -21,8 +21,12 @@ signs.forEach(elem => {
 });
 
 equals.addEventListener('click', () => {
-  out.innerHTML = eval(out.innerHTML);
-  outCount = out.innerHTML;
+  if (out.innerHTML == '') {
+    out.innerHTML = ''
+  } else {
+    out.innerHTML = eval(out.innerHTML);
+    outCount = out.innerHTML;
+  }
 });
 
 clear.addEventListener('click', () => {
@@ -32,4 +36,5 @@ clear.addEventListener('click', () => {
 backspace.addEventListener('click', () => {
   outCount = outCount.slice(0, -1);
   out.innerHTML = outCount;
+
 });

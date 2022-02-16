@@ -12,25 +12,3 @@
   min-height: 80px;
   word-wrap: break-word;
 }
-
-.someInfo {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 1px solid black;
-  border-top: 0;
-  background-color: #f1c895;
-  width: 350px;
-  height: 50px;
-}
-
-.someInfo>* {
-  cursor: pointer;
-  font-size: 22px;
-  margin: 0 10px;
-  border: 2px solid black;
-  border-radius: 100px;
-  width: 33.33333%;
-  height: 30px;
-  text-align: center  ;
-}
