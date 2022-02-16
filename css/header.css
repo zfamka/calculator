@@ -3,6 +3,16 @@
     flex-direction: column;
 }
 
+.output {
+  font-size: 25px;
+  padding: 10px;
+  background-color: #cfefef;
+  border: 4px solid black;
+  min-width: 350px;
+  min-height: 80px;
+  word-wrap: break-word;
+}
+
 .someInfo {
     display: flex;
     align-items: center;
